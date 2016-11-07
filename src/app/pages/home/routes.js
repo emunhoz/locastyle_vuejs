@@ -1,4 +1,4 @@
-import Main from './components/Main'
+import Main from './index/Main'
 
 export default [
   { path: '/home', component: Main }
