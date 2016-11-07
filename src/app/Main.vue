@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import RootHeader from '../components/root/header/main.vue'
-import SideBar from '../components/root/sidebar.vue'
+import RootHeader from './layouts/components/header/main.vue'
+import SideBar from './layouts/components/sidebar.vue'
 export default {
   name: 'app',
   components: { RootHeader, SideBar }
