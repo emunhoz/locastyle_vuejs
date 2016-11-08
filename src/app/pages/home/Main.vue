@@ -8,11 +8,22 @@
   </div>
 </template>
 <script>
-  import Modal from '../../../components/shareds/Modal.vue'
+  import Modal from '../../components/shareds/Modal.vue'
+  import http from './../../../http'
   export default {
     components: { Modal },
     mounted () {
-      window.locastyle.modal.init()
+      http.post('http://localhost:3000/posts', {
+        data: {
+          title: 'edermunhoz',
+          body: 'bar',
+          userId: 666
+        }
+      })
+        .then(response => response.data)
+        .then(data => {
+          console.log(data)
+        })
     }
   }
 </script>

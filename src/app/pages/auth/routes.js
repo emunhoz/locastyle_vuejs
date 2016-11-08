@@ -1,4 +1,4 @@
-import Main from './components/Main'
+import Main from './Main'
 
 export default [
   { path: '/auth', component: Main }
