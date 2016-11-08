@@ -1,4 +1,4 @@
-# Locastyle + Vue.js sem jQuery
+# Locastyle + Vue.js
 
 > A Vue.js project
 
